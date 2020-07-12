@@ -1,0 +1,46 @@
+.main-nav{
+    display:flex;
+    font-size:1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+  }
+
+  .main-nav li{
+    margin-left: 34px;
+  }
+
+  .main-nav a {
+    color:#432;
+  }
+
+  .main-nav a:hover{
+    color:rgb(170, 16, 241);
+  }
+
+
+ element.style{
+     width: 200px;
+ }
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 2.5rem;
+    }
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
