@@ -62,3 +62,19 @@ html {
     color:rgb(170, 16, 241);
   }
 
+@media (max-width:600px){
+  .career-contents{
+    flex-direction: column;
+  }
+  .page-title{
+    margin-top: 30px;
+  }
+  article, aside{
+    width: 100%;
+  }
+  aside{
+    margin-top: 60px;
+  }
+
+
+}
